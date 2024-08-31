@@ -4,7 +4,7 @@ import pandas as pd
 
 st.write('Simple Stock Price App')
 
-tickerSymbol = 'GOOGL'
+tickerSymbol = 'AAPL'
 
 tickerData = yf.Ticker(tickerSymbol)
 
